@@ -13,7 +13,7 @@ export const routes = createBrowserRouter([
             { path: '/', element: <Home></Home> },
             { path: '/addTask', element: <AddTask></AddTask> },
             { path: '/myTask', element: <MyTask></MyTask> },
-            { path: '/completetask', element: <CompleteTask></CompleteTask> },
+            { path: '/completedtask', element: <CompleteTask></CompleteTask> },
             { path: '/login', element: <Login></Login> },
             { path: '/signUp', element: <SignUp></SignUp> },
         ]

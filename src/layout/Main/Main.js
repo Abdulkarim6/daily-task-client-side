@@ -5,7 +5,7 @@ import Navber from '../../components/Navber/Navber';
 
 const Main = () => {
     return (
-        <div>
+        <div className='min-h-screen'>
             <Navber></Navber>
             <Outlet></Outlet>
             <Footer></Footer>
